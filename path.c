@@ -17,6 +17,7 @@ void env(char **env)
         }
 }
 
+
 /**
  * path - function
  * @dir: directory
@@ -49,6 +50,7 @@ char *path(char *dir, char *av)
 	buf[i] = '\0';
 	return (buf);
 }
+
 
 /**
  * get_env - function
@@ -98,6 +100,7 @@ char *get_env(char **env)
 	return (buf);
 }
 
+
 /**
  * dirTok - function
  * @env: environment
@@ -123,6 +126,7 @@ char **dirTok(char **env)
 	tokens[i] = NULL;
 	return (tokens);
 }
+
 
 /**
  * checkPath - function to check path
