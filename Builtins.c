@@ -53,8 +53,7 @@ return (0);
  */
 int checkBuiltins(char *combine, char **cmd)
 {
-int i;
-int stats;
+int i, stats;
 char *array[] = {"cd", "exit", "env", NULL};
 
 typedef int (*Builtins)(char **);
