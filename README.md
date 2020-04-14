@@ -3,7 +3,7 @@
 
 <h2> Files </h2>
 In this section, each file is followed by the functions it contains
-<TABLE BORDER="4" CELLPADDING="2"  CELLSPACING="2" WIDTH="100%">
+
 <TR>
 <TD BGCOLOR="#CCCCCC">Files</TD>
 <TD BGCOLOR="#CCCCCC">Functions</TD>
@@ -15,14 +15,6 @@ In this section, each file is followed by the functions it contains
 <TR>  <TD>path.c</TD> <TD>env, path, get_env, dirTok, checkPath</TD>  </TR>
 <TR>  <TD>shell.c</TD> <TD>main function</TD>  </TR>
 <TR>  <TD>shell.h</TD> <TD>header file containing libraries, prototypes and external variables</TD>  </TR>
-</TABLE>
-
-Builtins.c   :	cd, exitexe, printenv, cd - functions
-exe.c  :     execute command
-getcmd.c     :	     functions get_line, split_line
-path.c env, path, get_env, dirTok, checkPath
-shell.c	     : main function
-shell.h	     : header file containing libraries, prototypes and external variables
 
 <h2>Libraries</h2>
 <MENU>
@@ -35,7 +27,7 @@ shell.h	     : header file containing libraries, prototypes and external variabl
 <LI><stdlib.h>
 </MENU>
 
-<h2>Compiled with
+<h2>Compiled with</h2>
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 
 <h2>More Info</h2>
@@ -43,4 +35,4 @@ All files are formatted Betty style and checked using betty-style.pl and betty-d
 
 <h2>Authors</h2>
 Khawla Jlassi : <a href= "1391@holbertonschool.com"> email</a>
-Cirine Sassi : <a href= "1410@holbertonschool.com"> email</a>
+<br>Cirine Sassi : <a href= "1410@holbertonschool.com"> email</a>
