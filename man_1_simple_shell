@@ -32,4 +32,4 @@ builtin - execve - pwd - getline - strtok
 .P.BBugs.B
 A lot of bugs. Never mind
 .P.BAuthors.B
-Cirine Sassi, Khawla Jlassi
+Khawla Jlassi, Cirine Sassi
