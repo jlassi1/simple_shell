@@ -33,7 +33,7 @@ In this section, each file is followed by the functions it contains
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 
 <h2>More Info</h2>
-All files are formatted Betty style and checked using betty-style.pl and betty-doc.pl
+All files are formatted according the Betty style and checked using <a href= "https://github.com/holbertonschool/Betty/blob/master/betty-style.pl"> betty-style.pl </a> and <a href= "https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl"> betty-doc.pl</a>
 
 <h2>Authors</h2>
 Khawla Jlassi : <a href= "1391@holbertonschool.com"> email</a>
