@@ -1,9 +1,10 @@
-<h3> C - Simple Shell</h3>
+<h1> C - Simple Shell</h3>
 <h2> Description </h2>
 
 <h2> Files </h2>
 In this section, each file is followed by the functions it contains
 
+<TABLE BORDER="4" CELLPADDING="2"  CELLSPACING="2" WIDTH="100%">
 <TR>
 <TD BGCOLOR="#CCCCCC">Files</TD>
 <TD BGCOLOR="#CCCCCC">Functions</TD>
@@ -15,6 +16,7 @@ In this section, each file is followed by the functions it contains
 <TR>  <TD>path.c</TD> <TD>env, path, get_env, dirTok, checkPath</TD>  </TR>
 <TR>  <TD>shell.c</TD> <TD>main function</TD>  </TR>
 <TR>  <TD>shell.h</TD> <TD>header file containing libraries, prototypes and external variables</TD>  </TR>
+<TABLE>
 
 <h2>Libraries</h2>
 <MENU>
