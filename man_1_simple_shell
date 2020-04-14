@@ -1,0 +1,35 @@
+.TH man 8 "14 April 2020" "1.0" "simple_shell Manual"
+.SH NAME
+shell \- a simple UNIX command interpreter that takes commands from the keyboard and sends them to the OS to get performed.
+.SH SYNOPSIS
+arguments [int ac, char **av, char **env]
+
+.SH DESCRIPTION
+This program is a simple shell.
+
+.SS OVERVIEW
+Shell is a program that reads lines from STDOUT, interprets them, and generally executes other commands.
+
+.B Aliases
+A shell alias is a shortcut to reference a command. This Shell version does not allow aliases.
+
+.SH Shell built-in commands
+.B exit
+.brExits the shell
+.brUsage: exit
+
+.B env
+.brPrints the current environment.
+.brUsage: env
+
+.B man shell
+.brPrints the man page for shell
+.brUsage: man shell
+
+
+.P.BSee Also.B
+builtin - execve - pwd - getline - strtok
+.P.BBugs.B
+A lot of bugs. Never mind
+.P.BAuthors.B
+Cirine Sassi, Khawla Jlassi
