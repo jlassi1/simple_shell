@@ -20,7 +20,7 @@ In this section, each file is followed by the functions it contains
 
 <h2>Libraries</h2>
 <MENU>
-<LI><string.h>
+<LI> "<string.h>"
 <LI><stdio.h>
 <LI><unistd.h>
 <LI><sys/types.h>
