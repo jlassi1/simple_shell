@@ -4,10 +4,10 @@
 <h2> Files </h2>
 In this section, each file is followed by the functions it contains
 
-<TABLE CELLPADDING="2"  CELLSPACING="2" WIDTH="100%">
+<TABLE>
 <TR>
-<TD BGCOLOR="#CCCCCC">Files</TD>
-<TD BGCOLOR="#CCCCCC">Functions</TD>
+<TD BGCOLOR="#CCCCCC"><B>Files</B></TD>
+<TD BGCOLOR="#CCCCCC"><B>Functions</B></TD>
 </TR>
 
 <TR>  <TD>Builtins.c</TD> <TD>cd, exitexe, printenv</TD>  </TR>
