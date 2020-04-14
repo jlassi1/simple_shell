@@ -4,7 +4,7 @@
 <h2> Files </h2>
 In this section, each file is followed by the functions it contains
 
-<TABLE BORDER="4">
+<TABLE>
 <TR>
 <TD BGCOLOR="#CCCCCC">Files</TD>
 <TD BGCOLOR="#CCCCCC">Functions</TD>
