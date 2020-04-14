@@ -1,6 +1,6 @@
 <h1> C - Simple Shell</h3>
 <h2> Description </h2>
-
+<div>The simple shell is a command language interpreter that takes commands from the STDIN and executes them. Its code is written in C language.</div>
 <h2> Files </h2>
 In this section, each file is followed by the functions it contains
 
