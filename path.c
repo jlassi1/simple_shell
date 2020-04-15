@@ -11,7 +11,7 @@ void env(char **env)
 
 	while (env[i])
 	{
-		write(1, env[i], strlen(env[i]));
+		write(1, env[i], _strlen(env[i]));
 		write(1, "\n", 1);
 		i++;
 	}
@@ -29,8 +29,8 @@ char *path(char *dir, char *av)
 	int i, j, len, len1;
 	char *buf;
 
-	len = strlen(dir);
-	len1 = strlen(av);
+	len = _strlen(dir);
+	len1 = _strlen(av);
 
 	buf = malloc(sizeof(char) * len + len1 + 1);
 
@@ -78,7 +78,7 @@ char *get_env(char **env)
 		}
 		i++;
 	}
-	len = strlen(s);
+	len = _strlen(s);
 	buf = malloc(sizeof(char) * len + 1 + 8);
 
 	i = 5;
