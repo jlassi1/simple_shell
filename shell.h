@@ -8,6 +8,7 @@
 #include <sys/wait.h>
 #include <sys/stat.h>
 #include <stdlib.h>
+#include <signal.h>
 extern char **environ;
 extern int dir_count;
 #define DELIM "\n\a\t "
@@ -28,5 +29,10 @@ char *checkPath(char **dir, char *cmd);
 int _strlen(char *s);
 int _strcmp(char *s1, char *s2);
 char *_strdup(char *str);
+
+/* string function */
+int _strlen(char *s);
+char *_strdup(char *str);
+int _strcmp(char *s1, char *s2);
 
 #endif
