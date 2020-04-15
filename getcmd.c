@@ -26,7 +26,7 @@ return (buf);
  */
 char **split_line(char *line)
 {
-char *dup = strdup(line);
+char *dup = _strdup(line);
 char *token;
 char *t;
 char **tok = NULL;
