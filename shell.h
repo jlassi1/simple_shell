@@ -1,6 +1,6 @@
 #ifndef SHELL
 #define SHELL
-
+/* Library header */
 #include <string.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -10,10 +10,13 @@
 #include <stdlib.h>
 #include <signal.h>
 
+/* Marcos */
+
 extern char **environ;
 extern int dir_count;
 #define DELIM "\n\a\t "
 
+/* shell functions */
 void sig_handler(int sig_num);
 int exe(char *fullPath, char **cmd);
 int exitexe(char **cmd);
@@ -27,9 +30,6 @@ char *get_env(char **env);
 char *path(char *dir, char *av);
 char **dirTok(char **env);
 char *checkPath(char **dir, char *cmd);
-int _strlen(char *s);
-int _strcmp(char *s1, char *s2);
-char *_strdup(char *str);
 
 /* string functions */
 int _strlen(char *s);
