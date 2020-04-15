@@ -27,8 +27,11 @@ char *get_env(char **env);
 char *path(char *dir, char *av);
 char **dirTok(char **env);
 char *checkPath(char **dir, char *cmd);
+int _strlen(char *s);
+int _strcmp(char *s1, char *s2);
+char *_strdup(char *str);
 
-/* string function */
+/* string functions */
 int _strlen(char *s);
 char *_strdup(char *str);
 int _strcmp(char *s1, char *s2);
