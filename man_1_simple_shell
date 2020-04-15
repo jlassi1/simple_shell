@@ -22,6 +22,10 @@ A shell alias is a shortcut to reference a command. This Shell version does not 
 .brPrints the current environment.
 .brUsage: env
 
+.B cd
+.brChange Directory
+.brUsage: cd 
+
 .B man shell
 .brPrints the man page for shell
 .brUsage: man shell
@@ -33,3 +37,4 @@ builtin - execve - pwd - getline - strtok
 A lot of bugs. Never mind
 .P.BAuthors.B
 Khawla Jlassi, Cirine Sassi
+

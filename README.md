@@ -28,6 +28,40 @@
 <LI>stdlib.h
 </MENU>
 
+<h2>List of allowed functions and system calls for this project</h2>
+   <MENU>
+   <LI> access (man 2 access)
+   <LI> chdir (man 2 chdir)
+   <LI> close (man 2 close)
+   <LI> closedir (man 3 closedir)
+   <LI> execve (man 2 execve)
+   <LI> exit (man 3 exit)
+   <LI> _exit (man 2 _exit)
+   <LI> fflush (man 3 fflush)
+   <LI> fork (man 2 fork)
+   <LI> free (man 3 free)
+   <LI> getcwd (man 3 getcwd)
+   <LI> getline (man 3 getline)
+   <LI> isatty (man 3 isatty)
+   <LI> kill (man 2 kill)
+   <LI> malloc (man 3 malloc)
+   <LI> open (man 2 open)
+   <LI> opendir (man 3 opendir)
+   <LI> perror (man 3 perror)
+   <LI> read (man 2 read)
+   <LI> readdir (man 3 readdir)
+   <LI> signal (man 2 signal)
+   <LI> stat (__xstat) (man 2 stat)
+   <LI> lstat (__lxstat) (man 2 lstat)
+   <LI> fstat (__fxstat) (man 2 fstat)
+   <LI> strtok (man 3 strtok)
+   <LI> wait (man 2 wait)
+   <LI> waitpid (man 2 waitpid)
+   <LI> wait3 (man 2 wait3)
+   <LI> wait4 (man 2 wait4)
+   <LI> write (man 2 write)
+   </MENU>
+
 <h2>Compiled with</h2>
 gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 
