@@ -63,7 +63,7 @@
    </MENU>
 
 <h2>Compiled with</h2>
-gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
+  #gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 
 <h2>More Info</h2>
 All files are formatted according the Betty style and checked using <a href= "https://github.com/holbertonschool/Betty/blob/master/betty-style.pl"> betty-style.pl </a> and <a href= "https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl"> betty-doc.pl</a>
