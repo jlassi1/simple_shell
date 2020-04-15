@@ -1,5 +1,15 @@
 #include "shell.h"
-
+/**
+ * sig_handler - checks if Ctrl C is pressed
+ * @sig_num: int
+ */
+void sig_handler(int sig_num)
+{
+	if (sig_num == SIGINT)
+	{
+		write(1, "\n$ ", 3);
+	}
+}
 /**
  * main - main function
  * @argc: arg count
@@ -17,6 +27,8 @@ int main(int argc, char **argv, char **env)
 	{
 		while (1)
 		{
+			signal(SIGINT, sig_handler);
+			if (isatty(STDIN_FILENO))
 			write(1, "$ ", 2);
 			line = get_line();
 			if (line[0] == '\n')

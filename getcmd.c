@@ -14,7 +14,7 @@ get = getline(&buf, &bufsize, stdin);
 if (get == EOF)
 {
 write(1, "\n", 1);
-_exit(1);
+free(buf);
 }
 return (buf);
 }

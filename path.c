@@ -116,12 +116,12 @@ char **dirTok(char **env)
 	dir = get_env(env);
 	i = 0;
 	tokens = malloc(sizeof(char *) * 9);
-	tok = strtok(dir, " :");
+	tok = strtok(dir, ":");
 	while (tok != NULL)
 	{
 		tokens[i] = tok;
 		i++;
-		tok = strtok(NULL, " :");
+		tok = strtok(NULL, ":");
 	}
 	tokens[i] = NULL;
 	return (tokens);
@@ -146,5 +146,5 @@ char *checkPath(char **dir, char *cmd)
 			return (fullPath);
 		dir++;
 	}
-	return (NULL);
+	return (cmd);
 }

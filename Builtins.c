@@ -19,7 +19,7 @@ return (0);
 int exitexe(char **cmd)
 {
 if (*cmd)
-exit(1);
+exit(98);
 return (0);
 }
 
@@ -37,7 +37,7 @@ if (*cmd)
 i = 0;
 while (environ[i])
 {
-write(1, environ[i], strlen(environ[i]));
+write(1, environ[i], _strlen(environ[i]));
 write(1, "\n", 1);
 i++;
 }
@@ -62,7 +62,7 @@ Builtins f[] = {&cd, &exitexe, &printenv};
 i = 0;
 while (array[i] != NULL)
 {
-if (strcmp(array[i], cmd[0]) == 0)
+if (_strcmp(array[i], cmd[0]) == 0)
 return (f[i](cmd));
 i++;
 }

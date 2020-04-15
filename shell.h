@@ -9,11 +9,12 @@
 #include <sys/stat.h>
 #include <stdlib.h>
 #include <signal.h>
+
 extern char **environ;
 extern int dir_count;
 #define DELIM "\n\a\t "
 
-
+void sig_handler(int sig_num);
 int exe(char *fullPath, char **cmd);
 int exitexe(char **cmd);
 int cd(char **cmd);
