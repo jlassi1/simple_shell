@@ -5,6 +5,7 @@
  * @cmd: cmd
  * Return: 0 for success
  */
+
 int cd(char **cmd)
 {
 chdir(cmd[1]);
@@ -16,10 +17,11 @@ return (0);
  * @cmd: cmd
  * Return: 0 for success
  */
+
 int exitexe(char **cmd)
 {
 if (*cmd)
-exit(98);
+exit(1);
 return (0);
 }
 
@@ -28,10 +30,10 @@ return (0);
  * @cmd: pointer to cmd
  * Return: 0 for success
  */
+
 int printenv(char **cmd)
 {
 int i;
-
 if (*cmd)
 {
 i = 0;
@@ -51,6 +53,7 @@ return (0);
  * @cmd: cmd
  * Return: path to builtin // process from directory
  */
+
 int checkBuiltins(char *combine, char **cmd)
 {
 int i, stats;
