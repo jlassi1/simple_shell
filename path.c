@@ -5,6 +5,7 @@
  * @env: char **
  * Return: void
  */
+
 void env(char **env)
 {
 	int i = 0;
@@ -17,13 +18,13 @@ void env(char **env)
 	}
 }
 
-
 /**
  * path - function
  * @dir: directory
  * @av: argument value
  * Return: buffer
  */
+
 char *path(char *dir, char *av)
 {
 	int i, j, len, len1;
@@ -57,6 +58,7 @@ char *path(char *dir, char *av)
  * @env: environment
  * Return: tokens
  */
+
 char *get_env(char **env)
 {
 	int i, j, len;
@@ -106,6 +108,7 @@ char *get_env(char **env)
  * @env: environment
  * Return: tokens
  */
+
 char **dirTok(char **env)
 {
 	char **tokens;
@@ -134,6 +137,7 @@ char **dirTok(char **env)
  * @cmd: cmd input
  * Return: full path
  */
+
 char *checkPath(char **dir, char *cmd)
 {
 	struct stat st;
